@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Start Page</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <link href="/style.css" rel="stylesheet">
+</head>
+<body class="body">
+<header class="headerLinks">
+    <div>
+        <a href="Attendance">Click here to check who is studying what course.</a>
+    </div>
+    <div>
+        <a href="Courses">Click here to add a course to the DB.</a>
+    </div>
+    <div>
+        <a href="Students">Click here to add a student to the DB.</a>
+    </div>
+    <div>
+        <a href="Enroll">Click here to Enroll a student in a course.</a>
+    </div>
+</header>
+<h1>Hello User!</h1>
+<h5>Please log in to the database to be able to display the information in the tables.</h5>
+<form action="/login" method="post">
+    Username: <input name="username" type="text">
+    <br>
+    Password: <input name="password" type="password">
+    <br><br>
+    <input name="login" type="submit">
+</form>
+</body>
+</html>

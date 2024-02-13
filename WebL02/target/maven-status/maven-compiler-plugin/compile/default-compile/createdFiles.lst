@@ -1,0 +1,7 @@
+Servlets\AttendanceServlet.class
+Servlets\EnrollServlet.class
+org\WebL02\JAXRSConfiguration.class
+Servlets\LoginServlet.class
+Servlets\AddCourseServlet.class
+Servlets\AddStudentsServlet.class
+org\WebL02\resources\JavaEE8Resource.class
