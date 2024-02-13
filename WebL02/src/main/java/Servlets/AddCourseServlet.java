@@ -107,7 +107,7 @@ public class AddCourseServlet extends HttpServlet {
                     " required></textarea><br><br>"
                     + "<input type=\"submit\" value=\"Submit\"><br>"
                     + "</form>"
-                    + "<form action=\"Enroll\" method =\"get\" >"
+                    + "<form action=\"/Courses\" method =\"get\" >"
                     + "<input type=\"submit\" value=\"Display Students and Courses\"><br>"
                     + "</form>");
 

@@ -106,7 +106,7 @@ public class AddStudentsServlet extends HttpServlet {
                     + "Hobby: <input type=\"text\" name=\"hobby\" required><br><br>"
                     + "<input type=\"submit\" value=\"Submit\"><br>"
                     + "</form>"
-                    + "<form action=\"Enroll\" method =\"get\" >"
+                    + "<form action=\"/Students\" method =\"get\" >"
                     + "<input type=\"submit\" value=\"Display Students and Courses\"><br>"
                     + "</form>");
 
